@@ -1,28 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arquivos do Projeto</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Conteúdo dos Arquivos</h1>
-
-    <h2>sisteminha.py</h2>
-    <pre id="sisteminha"></pre>
-
-    <h2>webdownload.py</h2>
-    <pre id="webdownload"></pre>
-
-    <script>
-        async function carregar(id, url) {
-            const r = await fetch(url);
-            const t = await r.text();
-            document.getElementById(id).textContent = t;
-        }
-
-        carregar("sisteminha", "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/sisteminha.py");
-        carregar("webdownload", "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/webdownload.py");
-    </script>
+    
 </body>
 </html>
